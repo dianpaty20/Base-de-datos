@@ -1,0 +1,141 @@
+ERROR - 2023-11-30 02:24:49 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'bibliotecagener...', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\app\Controllers\UserController.php(45): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(942): App\Controllers\UserController->index()
+#8 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\app\Controllers\UserController.php(45): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(942): App\Controllers\UserController->index()
+#7 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\...')
+#11 {main}
+CRITICAL - 2023-11-30 02:24:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+WHERE `email` LIKE :email: ESCAPE \'!\'
+AND  `password` LIKE :password: ESCAPE \'!\'', [...], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\UserController.php(45): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+ERROR - 2023-11-30 02:25:22 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'bibliotecagener...', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\app\Controllers\UserController.php(45): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(942): App\Controllers\UserController->index()
+#8 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\app\Controllers\UserController.php(45): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(942): App\Controllers\UserController->index()
+#7 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\...')
+#11 {main}
+CRITICAL - 2023-11-30 02:25:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+WHERE `email` LIKE :email: ESCAPE \'!\'
+AND  `password` LIKE :password: ESCAPE \'!\'', [...], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\UserController.php(45): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+INFO - 2023-11-30 02:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-30 17:25:27 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'bibliotecagener...', 3306, '', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\app\Controllers\UserController.php(45): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(942): App\Controllers\UserController->index()
+#8 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\app\Controllers\UserController.php(45): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(942): App\Controllers\UserController->index()
+#7 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\...')
+#11 {main}
+CRITICAL - 2023-11-30 17:25:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+WHERE `email` LIKE :email: ESCAPE \'!\'
+AND  `password` LIKE :password: ESCAPE \'!\'', [...], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\UserController.php(45): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+INFO - 2023-11-30 17:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 17:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

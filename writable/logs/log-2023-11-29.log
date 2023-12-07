@@ -1,0 +1,361 @@
+CRITICAL - 2023-11-29 14:16:43 --> Undefined variable $libroModel
+in APPPATH\Controllers\Biblioteca.php on line 16.
+ 1 APPPATH\Controllers\Biblioteca.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libroModel', 'C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Controllers\\Biblioteca.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Biblioteca->mostrar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biblioteca))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+CRITICAL - 2023-11-29 14:17:09 --> Undefined property: stdClass::$fechaPublicacion
+in APPPATH\Views\biblioteca\mostrar.php on line 38.
+ 1 APPPATH\Views\biblioteca\mostrar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$fechaPublicacion', 'C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Views\\biblioteca\\mostrar.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Views\\biblioteca\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('biblioteca/mostrar', [], true)
+ 5 APPPATH\Controllers\Biblioteca.php(20): view('biblioteca/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Biblioteca->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biblioteca))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+CRITICAL - 2023-11-29 14:17:48 --> Undefined property: stdClass::$fecha_Publicacion
+in APPPATH\Views\biblioteca\mostrar.php on line 38.
+ 1 APPPATH\Views\biblioteca\mostrar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$fecha_Publicacion', 'C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Views\\biblioteca\\mostrar.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Views\\biblioteca\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('biblioteca/mostrar', [], true)
+ 5 APPPATH\Controllers\Biblioteca.php(20): view('biblioteca/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Biblioteca->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biblioteca))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+CRITICAL - 2023-11-29 14:36:07 --> Undefined variable $tipo
+in APPPATH\Controllers\Biblioteca.php on line 108.
+ 1 APPPATH\Controllers\Biblioteca.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipo', 'C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Controllers\\Biblioteca.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Biblioteca->buscar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biblioteca))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+CRITICAL - 2023-11-29 14:36:07 --> Undefined variable $tipo
+in APPPATH\Controllers\Biblioteca.php on line 108.
+ 1 APPPATH\Controllers\Biblioteca.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipo', 'C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Controllers\\Biblioteca.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Biblioteca->buscar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biblioteca))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+INFO - 2023-11-29 14:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 14:49:40 --> The route for "biblioteca/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('biblioteca/login')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Biblioteca.php(72): redirect('biblioteca/login', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Biblioteca->editar('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biblioteca))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+CRITICAL - 2023-11-29 14:52:12 --> Undefined property: stdClass::$fechaPublicacion
+in APPPATH\Views\biblioteca\editar.php on line 46.
+ 1 APPPATH\Views\biblioteca\editar.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$fechaPublicacion', 'C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Views\\biblioteca\\editar.php', 46)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Views\\biblioteca\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('biblioteca/editar', [], true)
+ 5 APPPATH\Controllers\Biblioteca.php(73): view('biblioteca/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Biblioteca->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biblioteca))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+CRITICAL - 2023-11-29 14:53:34 --> Undefined array key "fecha_Publicacion"
+in APPPATH\Controllers\Biblioteca.php on line 84.
+ 1 APPPATH\Controllers\Biblioteca.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_Publicacion"', 'C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Controllers\\Biblioteca.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Biblioteca->update()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biblioteca))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+INFO - 2023-11-29 14:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 14:54:09 --> The route for "usuario/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('usuario/login')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Biblioteca.php(58): redirect('usuario/login', 'refresh')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Biblioteca->delete('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Biblioteca))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+CRITICAL - 2023-11-29 15:02:17 --> Call to a member function like() on null
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+INFO - 2023-11-29 15:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 15:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 15:29:42 --> Undefined variable $rlibroModel
+in APPPATH\Controllers\Reseña.php on line 16.
+ 1 APPPATH\Controllers\Reseña.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rlibroModel', 'C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Controllers\\Reseña.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reseña->mostrar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reseña))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+CRITICAL - 2023-11-29 15:34:11 --> Undefined variable $biblioteca
+in APPPATH\Views\reseña\editar.php on line 43.
+ 1 APPPATH\Views\reseña\editar.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $biblioteca', 'C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Views\\reseña\\editar.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Views\\reseña\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('reseña/editar', [], true)
+ 5 APPPATH\Controllers\Reseña.php(72): view('reseña/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Reseña->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reseña))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+CRITICAL - 2023-11-29 16:16:12 --> Undefined variable $prestamoLibro
+in APPPATH\Views\prestamo\mostrar.php on line 24.
+ 1 APPPATH\Views\prestamo\mostrar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prestamoLibro', 'C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Views\\prestamo\\mostrar.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Views\\prestamo\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('prestamo/mostrar', [], true)
+ 5 APPPATH\Controllers\Prestamo.php(20): view('prestamo/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Prestamo->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamo))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+CRITICAL - 2023-11-29 16:24:08 --> Undefined variable $reseña
+in APPPATH\Views\prestamo\editar.php on line 44.
+ 1 APPPATH\Views\prestamo\editar.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reseña', 'C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Views\\prestamo\\editar.php', 44)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Views\\prestamo\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('prestamo/editar', [], true)
+ 5 APPPATH\Controllers\Prestamo.php(68): view('prestamo/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Prestamo->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamo))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+INFO - 2023-11-29 19:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-29 19:33:55 --> mysqli_sql_exception: Table 'bibliotecageneral.multalibro' doesn't exist in C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `mu...', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mu...')
+#2 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mu...')
+#3 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mu...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\app\Controllers\Multa.php(45): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(942): App\Controllers\Multa->insert()
+#9 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multa))
+#10 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\...')
+#13 {main}
+CRITICAL - 2023-11-29 19:33:55 --> Table 'bibliotecageneral.multalibro' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `multaLibro` (`nombreCliente`, `titulo`, `tipo`, `fechaSalida`, `fechaEntrega`, `diasRetraso`, `pagoMulta`) VALUES (:nombreCliente:, :titulo:, :tipo:, :fechaSalida:, :fechaEntrega:, :diasRetraso:, :pagoMulta:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 APPPATH\Controllers\Multa.php(45): CodeIgniter\Model->insert([...], false)
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Multa->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+ERROR - 2023-11-29 19:34:55 --> mysqli_sql_exception: Table 'bibliotecageneral.multalibro' doesn't exist in C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `mu...', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mu...')
+#2 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mu...')
+#3 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mu...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\app\Controllers\Multa.php(45): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(942): App\Controllers\Multa->insert()
+#9 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multa))
+#10 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\...')
+#13 {main}
+CRITICAL - 2023-11-29 19:34:55 --> Table 'bibliotecageneral.multalibro' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `multaLibro` (`nombreCliente`, `titulo`, `tipo`, `fechaSalida`, `fechaEntrega`, `diasRetraso`, `pagoMulta`) VALUES (:nombreCliente:, :titulo:, :tipo:, :fechaSalida:, :fechaEntrega:, :diasRetraso:, :pagoMulta:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 APPPATH\Controllers\Multa.php(45): CodeIgniter\Model->insert([...], false)
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Multa->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+ERROR - 2023-11-29 19:37:06 --> mysqli_sql_exception: Table 'bibliotecageneral.multalibro' doesn't exist in C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `mu...', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mu...')
+#2 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mu...')
+#3 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mu...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\app\Controllers\Multa.php(45): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(942): App\Controllers\Multa->insert()
+#9 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multa))
+#10 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\...')
+#13 {main}
+CRITICAL - 2023-11-29 19:37:06 --> Table 'bibliotecageneral.multalibro' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `multaLibro` (`nombreCliente`, `titulo`, `tipo`, `fechaSalida`, `fechaEntrega`, `diasRetraso`, `pagoMulta`) VALUES (:nombreCliente:, :titulo:, :tipo:, :fechaSalida:, :fechaEntrega:, :diasRetraso:, :pagoMulta:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 APPPATH\Controllers\Multa.php(45): CodeIgniter\Model->insert([...], false)
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Multa->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+ERROR - 2023-11-29 19:37:37 --> mysqli_sql_exception: Table 'bibliotecageneral.multalibro' doesn't exist in C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `mu...', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mu...')
+#2 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mu...')
+#3 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mu...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\app\Controllers\Multa.php(45): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(942): App\Controllers\Multa->insert()
+#9 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multa))
+#10 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\...')
+#13 {main}
+CRITICAL - 2023-11-29 19:37:37 --> Table 'bibliotecageneral.multalibro' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `multaLibro` (`nombreCliente`, `titulo`, `tipo`, `fechaSalida`, `fechaEntrega`, `diasRetraso`, `pagoMulta`) VALUES (:nombreCliente:, :titulo:, :tipo:, :fechaSalida:, :fechaEntrega:, :diasRetraso:, :pagoMulta:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 APPPATH\Controllers\Multa.php(45): CodeIgniter\Model->insert([...], false)
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Multa->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+ERROR - 2023-11-29 19:37:44 --> mysqli_sql_exception: Table 'bibliotecageneral.multalibro' doesn't exist in C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `mu...', 0)
+#1 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mu...')
+#2 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mu...')
+#3 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mu...', Array, false)
+#4 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\app\Controllers\Multa.php(45): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(942): App\Controllers\Multa->insert()
+#9 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multa))
+#10 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\reyes\OneDrive\Documentos\BibliotecaG\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\...')
+#13 {main}
+CRITICAL - 2023-11-29 19:37:44 --> Table 'bibliotecageneral.multalibro' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `multaLibro` (`nombreCliente`, `titulo`, `tipo`, `fechaSalida`, `fechaEntrega`, `diasRetraso`, `pagoMulta`) VALUES (:nombreCliente:, :titulo:, :tipo:, :fechaSalida:, :fechaEntrega:, :diasRetraso:, :pagoMulta:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 APPPATH\Controllers\Multa.php(45): CodeIgniter\Model->insert([...], false)
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Multa->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+CRITICAL - 2023-11-29 19:38:32 --> Undefined variable $mlibroModel
+in APPPATH\Controllers\Multa.php on line 16.
+ 1 APPPATH\Controllers\Multa.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mlibroModel', 'C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Controllers\\Multa.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Multa->mostrar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multa))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+CRITICAL - 2023-11-29 19:38:56 --> Undefined variable $multaLibro
+in APPPATH\Views\multa\mostrar.php on line 23.
+ 1 APPPATH\Views\multa\mostrar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $multaLibro', 'C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Views\\multa\\mostrar.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Views\\multa\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('multa/mostrar', [], true)
+ 5 APPPATH\Controllers\Multa.php(20): view('multa/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Multa->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+CRITICAL - 2023-11-29 19:40:52 --> Undefined property: stdClass::$nombreLibro
+in APPPATH\Views\multa\mostrar.php on line 27.
+ 1 APPPATH\Views\multa\mostrar.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombreLibro', 'C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Views\\multa\\mostrar.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Views\\multa\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('multa/mostrar', [], true)
+ 5 APPPATH\Controllers\Multa.php(20): view('multa/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Multa->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+CRITICAL - 2023-11-29 19:41:50 --> Undefined variable $multaLibro
+in APPPATH\Views\multa\editar.php on line 15.
+ 1 APPPATH\Views\multa\editar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $multaLibro', 'C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Views\\multa\\editar.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\app\\Views\\multa\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('multa/editar', [], true)
+ 5 APPPATH\Controllers\Multa.php(64): view('multa/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Multa->editar('11')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+INFO - 2023-11-29 20:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 20:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-29 20:36:59 --> Invalid file: "usuario/registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuario/registro.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('usuario/registro', [], true)
+ 3 APPPATH\Controllers\UserController.php(74): view('usuario/registro')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->registro()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+CRITICAL - 2023-11-29 20:39:03 --> Invalid file: "usuario/registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuario/registro.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('usuario/registro', [], true)
+ 3 APPPATH\Controllers\UserController.php(74): view('usuario/registro')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->registro()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+CRITICAL - 2023-11-29 20:39:04 --> Invalid file: "usuario/registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuario/registro.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('usuario/registro', [], true)
+ 3 APPPATH\Controllers\UserController.php(74): view('usuario/registro')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->registro()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\reyes\\OneDrive\\Documentos\\BibliotecaG\\public\\index.php')
+INFO - 2023-11-29 20:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
